@@ -28,7 +28,7 @@ A step-by-step series of examples that tell you how to get a development environ
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/rishabkumar7/flask-blog-pulumi.git
    cd your-repo-name
    ```
 
