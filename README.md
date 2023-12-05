@@ -29,7 +29,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
    ```bash
    git clone https://github.com/rishabkumar7/flask-blog-pulumi.git
-   cd your-repo-name
+   cd flask-blog-pulumi/src
    ```
 
 2. **Set up a virtual environment (optional but recommended)**:
