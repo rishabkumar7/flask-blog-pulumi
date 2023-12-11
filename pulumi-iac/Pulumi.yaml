@@ -1,0 +1,6 @@
+name: pulumi-iac
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Pulumi program to deploy blog project to aws

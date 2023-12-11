@@ -3,15 +3,16 @@ import boto3
 from boto3.dynamodb.conditions import Key
 import uuid
 import datetime
-
+import os
 from dotenv import load_dotenv
 load_dotenv()  # This loads the variables from .env
 
 app = Flask(__name__)
 
 # AWS DynamoDB Setup
+table_name = os.environ.get('DYNAMODB_TABLE_NAME')
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('BlogPosts')
+table = dynamodb.Table(table_name)
 
 @app.route('/')
 def index():
